@@ -2,8 +2,6 @@
 
 Welcome to the Animal Retrieval System project! This system allows users to upload images of animals, which are then processed to detect, crop, and classify the animals. The project utilizes YOLO (You Only Look Once) for object detection and VGG16 for image classification. The web interface, built using Flask, displays information about the animal, including its favorable locations, survival issues, and common habitats.
 
-# Installation
-To get a local copy of the project up and running, follow these steps:
 
 # Prerequisites
 1. Python 3.6 or higher
