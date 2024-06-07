@@ -33,5 +33,4 @@ To get a local copy of the project up and running, follow these steps:
 - OpenCV: Library for image processing.
 - TensorFlow/Keras: Frameworks used to implement the deep learning models
 
-
-<video controls src="Animal Insight - Google Chrome 2024-06-07 18-35-29.mp4" title="hello"></video>
+<video controls src="video.mp4" title="new hekllo"></video>
