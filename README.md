@@ -13,12 +13,12 @@ To get a local copy of the project up and running, follow these steps:
 # Uploading an Image
 1. Click on the "Upload Image" button.
 
-![about](<Screenshot (21).png>)
+![new](Screenshot(21).png)
 
 2. Select an image of an animal from your local machine.
 3. Click "Predict" to upload the image.
 
-![final](<Screenshot (24).png>)
+![final](<Screenshot(24).png>)
 
 4. The system will process the image, detecting and cropping the animal using YOLO. The cropped image will then be classified using VGG16. The web interface will display information about the identified animal, including:
    - Name
