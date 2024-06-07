@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Insight</title>
+    <style>
+        .rectangle {
+            width: 500px; /* Width of the rectangle */
+            height: 300px; /* Height of the rectangle */
+            border: 2px dotted black; /* Dotted border for the rectangle */
+            position: absolute; /* Position the rectangle absolutely */
+            top: 210px; /* Position from the top */
+            left: 550px; 
+            border-radius: 10pt;/* Position from the left (centered horizontally) */
+        }
+    </style>
+    <style>
+        #fileInput {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            width: 490px;
+            height: 220px;
+            opacity: 0; /* Set opacity to 0 to hide the file input */
+            cursor: pointer;
+        }
+        /* Style for the box */
+        .upload-box {
+            position: relative;
+            width: 500px;
+            height: 250px;
+            border: 2px dashed #ccc;
+            text-align: center;
+            line-height: 100px;
+            top: 150px;
+            left: 600px;
+            border-radius: 10pt;
+        }
+
+        /* Style for the Predict button */
+        .predict-btn {
+            margin-top: 200px; /* Move the Predict button down */
+        }
+        h3 {
+            position: absolute;
+            top: 320px;
+            left: 860px;
+            transform: translateX(-50%);
+            color: white;
+        }
+    </style>
+
+    <style>
+        h1 {
+            color: rgb(255, 255, 255);
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body style="background-color:#353839;">
+    <h1>Animal Insight</h1>
+    <div class="upload-box">
+        <form class="form-inline" action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file"><br>
+            <input type="submit" class="btn btn-success predict-btn" value="Predict">
+        </form>
+    </div>
+    <h3>Click here to upload</h3>
+</body>
+</html>
+

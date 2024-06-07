@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Animal Insight</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #353839;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top: 50px; /* Adjust as needed */
+        }
+
+
+        h1 {
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            padding-left: 15px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        .img-thumbnail {
+            width: 250px;
+            height: 250px;
+            float: right;
+        }
+
+        .result-container {
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        .result-info {
+            background-color: #04aa6d;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-bottom: 10px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Animal Insight</h1>
+    <div class="col-lg-5" style="padding-top:30px">
+        <span class="border border-primary">
+          <img src="{{ user_image }}" alt="User Image" class="img-thumbnail" style="width:800px;height:400px;float:left">
+        </span>
+      </div>
+      <div class="col-lg-5" style="padding-top:30px">
+        <h4 style="position: relative;">
+            <mark style="border-radius:150px;width:250px;height:100px;position: absolute; right: 50pt; top: 10pt; font-size: 35pt; background-color: transparent;color: rgb(255, 255, 255);">
+              {{name}}
+            </mark>
+          </h4>
+          <h5 style="position: relative; margin-top: 350px;top: 50;">
+            <mark style="border-radius:15px; padding: 1px; font-size: 12pt; background-color: transparent; color: rgb(255, 255, 255); position: relative; left: 5px;">
+              {{Location}}
+            </mark>
+          </h5>
+          <h6 style="position: relative; margin-top: -285px;">
+            <mark style="border-radius:16px;width:650px;height:250px;position: absolute; right: -110pt; top: 10pt; font-size: 20pt; background-color: transparent;color: rgb(255, 255, 255);">
+               {{About}}
+            </mark>
+          </h6>
+          <div style="position: relative;">
+            <h4 style="margin-top: 320px; position: absolute; left: 50px;font-size: 30px;">Favourable Condition</h4>
+            <mark style="border-radius:16px;width:1450px;height:300px;position: absolute; right: -180pt; top: 280pt; font-size: 20pt; background-color: transparent;color: rgb(255, 255, 255);">
+              {{Favourable}}
+            </mark>
+          </div>
+          <div style="position: relative;">
+            <h4 style="margin-top: 850px; position: absolute; left: 50px;font-size: 30px;">Survival Issue</h4>
+            <mark style="border-radius:16px;width:1450px;height:300px;position: absolute; right: -180pt; top: 750pt; font-size: 20pt; background-color: transparent;color: rgb(255, 255, 255);">
+              {{Survival_Issue}}
+            </mark>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </div>
+      
+
+</body>
+</html>
